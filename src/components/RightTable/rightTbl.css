@@ -1,0 +1,39 @@
+.dog-columns{
+    width : 84%;
+    float :right
+}
+.col{
+    width: 20%;
+    float: left;
+    height: 200px;
+    border:1px solid black;
+    background-size: cover;
+    position: relative;
+}
+.col:hover{
+    cursor: pointer;
+}
+.col:hover .breed-name-holder{
+    color: red
+}
+.title{
+    line-height: 35px;
+    border: 1px solid black;
+    border-bottom: none;
+    background-color: beige;
+    font-weight: bold;
+}
+.breed-name-holder{
+    height: 30px;
+    background: rgba(250, 250, 250, 0.6);
+    font-weight: bold;
+}
+
+.likes-holder{
+    height: 30px;
+    background: rgba(250, 250, 250, 0.6);
+    font-weight: bold;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}

@@ -1,0 +1,26 @@
+.tbl-breeds{
+    width : 15%;
+    position: fixed;
+    left: 15px;
+}
+th, td{
+    padding: 5px;
+    border-bottom: 1px solid black
+}
+thead th {
+    background-color: beige;
+    text-align: center;
+}
+.right{
+    float:right
+}
+.left{
+    float:left
+}
+
+.spinner-holder{
+    position: absolute;
+    top: 45%;
+    right:45%;
+    z-index: 9;
+}
